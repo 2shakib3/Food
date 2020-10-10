@@ -1,0 +1,584 @@
+/* basic css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face {
+    src: url("fonts/Montserrat-Regular.ttf");
+    font-family: Montserrat-regular;
+}
+
+@font-face {
+    src: url("fonts/PaytoneOne-Regular.ttf");
+    font-family: pay;
+}
+
+@font-face {
+    src: url("fonts/Righteous-Regular.ttf");
+    font-family: pay_2;
+}
+
+@font-face {
+    src: url("fonts/Lulo-Clean-W01-One-Bold.ttf");
+    font-family: lulo;
+}
+
+@font-face {
+    src: url("fonts/Montserrat-Light.ttf");
+    font-family: Montserrat;
+}
+
+@font-face {
+    src: url("fonts/Montserrat-Bold.ttf");
+    font-family: Montserrat-bold;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* header css */
+
+.a {
+    background-image: url("images/background.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none!important;
+}
+
+.img {
+    height: 150px;
+    width: 300px;
+}
+
+.header_img img {
+    display: block;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.80);
+    height: 100%;
+    width: 100% !important;
+}
+
+.blur_dhorbo {
+    position: relative;
+}
+
+.blur_2 {
+    background-color: rgba(255, 255, 255, 0.66);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.heder_content {
+    margin-left: 65px;
+}
+
+.head {
+    width: 94% !important;
+    margin-left: 130px;
+}
+
+.head h1 {
+    font-family: lulo;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-top: 50px;
+}
+
+.head h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 27px;
+    margin-top: 16px;
+    font-family: montserrat, sans-serif;
+}
+
+.heade_btn {
+    display: block;
+    margin-top: 70px;
+    border: none;
+    outline: none;
+}
+
+.heade_btn span {
+    border: 2px solid #111;
+    display: block;
+    width: 248px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 13px 0px;
+    color: #000;
+    font-weight: 600;
+    line-height: 19px;
+    height: 53px;
+    transition: .3s;
+}
+
+.heade_btn span:hover {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    text-underline: none;
+}
+
+.header_content {
+    text-align: left;
+    width: 400px;
+    margin-top: 60px;
+
+
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.header_content h1{
+    font-family: lulo;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-top: 50px;
+
+}
+
+.header_content h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-top: 16px;
+    font-family: Montserrat-regular, sans-serif;
+}
+
+
+
+.header_content a {
+
+}
+
+/* digital section css */
+
+.digita_content h1 {
+    font-weight: 500;
+    font-family: pay;
+    font-size: 39px;
+    text-transform: uppercase;
+    position: relative;
+    left: -104px;
+    letter-spacing: 5px;
+    top: 14px;
+    word-spacing: 8px;
+}
+
+.digita_content h3 {
+
+    font-family: Montserrat-bold;
+    font-weight: normal;
+    color: #1D1E21;
+    margin-top: 90px;
+    width: 90%;
+    word-spacing: 5px;
+    margin-bottom: 22px;
+    margin-left: 13px;
+    font-size: 19px;
+    line-height: 1.4em;
+    letter-spacing: inherit;
+    padding-right: 66px
+}
+
+.digita_content p {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 25px;
+    margin-left: 13px;
+    text-align: justify;
+}
+
+.digital_section img {
+    height: 500px;
+}
+
+
+/* icon box css */
+
+
+.icon_box {
+    margin-top: 25px;
+}
+
+.icon_box img {
+    margin-bottom: 25px;
+}
+
+.icon_box h3 {
+    font-family: pay;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.icon_box p {
+    font-size: 15px;
+}
+
+.mm {
+    background-color: red!important;
+    width: 100% !important;
+    padding: 0px;
+    margin: auto;
+}
+
+
+/* number section  */
+
+
+
+    .number_title h3 {
+        font-family: pay;
+        font-size: 34px;
+        letter-spacing: 2px;
+    }
+
+    .number_1 span {
+        font-family: lulo;
+        color: #FFEAE8;
+        text-align: left;
+        font-size: 115px;
+    }
+
+    .number_1 p {
+        width: 70%;
+        font-family: Pay;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        margin-top: 90px;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+    }
+
+    .number_2 span {
+        font-family: lulo;
+        color: #ECDBFF;
+        text-align: left;
+        font-size: 115px;
+        position: relative;
+    }
+
+    .number_2 p {
+        width: 70%;
+        font-family: pay;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 91px;
+        margin-left: -49px;
+    }
+
+    .number_3 span {
+        font-family: lulo;
+        text-align: left;
+        font-size: 115px;
+        position: relative;
+        color: #D4EDEE;
+    }
+
+    .number_3 p {
+        width: 70%;
+        font-family: pay;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 91px;
+        margin-left: -49px;
+    }
+
+    .number_btn {
+        margin: auto;
+        margin-top: 75px;
+        margin-bottom: 45px;
+    }
+
+    .number_btn span {
+        border: 2px solid #111;
+        border-radius: 24px;
+        display: block;
+        padding: 10px 45px;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        -ms-border-radius: 24px;
+        -o-border-radius: 24px;
+        font-weight: bold;
+    }
+
+    .number_btn span:hover {
+        color: #fff;
+        background: #111;
+    }
+
+
+/* code section css*/
+.veja {
+    margin-bottom: 45px;
+}
+
+.code_seciton h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.qr_1 img {
+    margin-left: 306px;
+}
+
+.qr_2 img {
+    margin-left: 51px;
+}
+
+.m-5 {
+    margin: 5rem !important;
+}
+
+
+/* contact css */
+
+.contact_left {
+    background: #1D1E21;
+}
+
+.contact_left h6 {
+    font-family: pay;
+    margin-top: 102px;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.contact_left p:first-child {
+    width: 35%;
+    margin: auto;
+}
+.contact_left input {
+    background: #1D1E21;
+    border: none;
+    border-bottom: 3px solid #fff;
+    padding-left: 5px;
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.contact_left input:hover {
+    border-bottom: .5px solid #373B4D;
+}
+
+.contact_left input:focus {
+    color: #fff;
+    outline: none;
+}
+
+.contact_btn {
+    display: block;
+    margin-top: 30px;
+    border: none;
+    text-decoration: none;
+}
+
+.contact_btn span {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    padding: 8px 26px;
+    font-weight: bold;
+    height: 46px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.contact_btn span:hover {
+    background: #323232;
+    border: 2px solid transparent;
+    color: #fff;
+}
+
+.bottom_p {
+    margin-top: 40px;
+    font-family: montserrat;
+    font-size: 16px;
+}
+
+.bottom_p span {
+    margin: 0px 15px;
+}
+
+.contact_right {
+    background: #EE9C83;
+}
+
+
+/* footer css */
+
+.footer-copyright p {
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.icon_mid {
+    max-width: 1700px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .number_1 span {
+        font-family: lulo;
+        color: #FFEAE8;
+        text-align: left;
+        font-size: 115px;
+        float: left;
+    }
+
+    .number_2 span {
+        font-family: lulo;
+        color: #ECDBFF;
+        text-align: left;
+        font-size: 115px;
+        float: left;
+    }
+
+    .number_3 span {
+        font-family: lulo;
+        color: #D4EDEE;
+        text-align: left;
+        font-size: 115px;
+        float: left;
+    }
+
+    .number_1 p {
+        width: 70%;
+        font-family: pay;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 50px;
+    }
+
+
+
+    .number_2 p {
+        width: 70%;
+        font-family: pay;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: -28px;
+    }
+
+    .number_3 p {
+        width: 70%;
+        font-family: pay;
+        font-size: 20px;
+        word-spacing: 7px;
+        position: absolute;
+        line-height: 1.2em;
+        color: #1D1E21;
+        text-align: left;
+        margin-top: 50px;
+        margin-left: -28px;
+    }
+
+    .qr_1 img {
+        margin-left: auto;
+    }
+
+    .qr_2 img {
+        margin-left: 158px;
+    }
+
+    .contact_left label {
+        display: block;
+        margin-right: 70%;
+        font-family: montserrat;
+        margin-top: 14px;
+    }
+
+    .qr_image {
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+
+    }
+
+}
+
+@media only screen and (min-device-width : 1px) and (max-device-width : 767px) {
+
+}
